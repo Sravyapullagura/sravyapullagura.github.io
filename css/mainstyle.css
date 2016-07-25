@@ -1,0 +1,113 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+    
+height : 1000px; 
+    
+    
+    
+}
+
+/*******Styling the header ********/
+.navbar{
+	background-color :#300032;
+	border : 1px solid #300032;
+	border-radius : 0%;
+
+}
+.navbar-default .navbar-brand{
+	color : #ffffff;
+	font-size : 1.5em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  text-decoration: none;
+  color : yellow;
+
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	background-color : #300032;
+	color : #ffffff;
+
+}
+.navbar-collapse .menuitems{
+
+	text-align : center;
+	width: 100%;
+	padding : 3px;
+	border : 1px solid #300032;
+	border-radius : 2%;
+	background-color : #300032;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  background-color: #ffffff;
+}
+
+
+/****** Styling main content ****/
+
+#main-content{
+
+	background-color : #963019;
+	padding : 20px;
+	margin : 10px;
+	color : #ffffff;
+
+}
+.navbar .normal-menu > li {
+    background-color : #300032;
+    padding : 10px;
+    display : block;
+    font-size : 20px;
+    opacity : 0.9;
+    margin-left : 200px;
+}
+
+.page-header{
+    
+    height : 400px;
+    background : linear-gradient(to right,#06000a,#300032);
+    color : white;
+    font-size : 150px;
+
+
+    
+}
+#title-name,#title-icons{
+    position : relative;
+    top : 200px;
+}
+
+#about{
+    padding-top : 100px;
+    font-size : 20px;
+    
+    
+}
+
+.row{
+    
+    
+    margin-bottom : 30px;
+}
+
+footer{
+    height : 40px;
+    background-color : black;
+    color : white;
+}
+.icons{
+    color : white;
+    margin : 30px;
+}
+@media (max-width : 992px){
+
+	.navbar .normal-menu > li {
+         margin-left : 100px;
+    }
+}
