@@ -60,11 +60,11 @@ height : 1000px;
 
 }
 .navbar .normal-menu > li {
-    background-color : #300032;
+    
     padding : 10px;
     display : block;
     font-size : 20px;
-    opacity : 0.9;
+   
     margin-left : 200px;
 }
 
