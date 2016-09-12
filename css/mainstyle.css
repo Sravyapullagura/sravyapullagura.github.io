@@ -26,7 +26,7 @@ height : 1000px;
 }
 
 
-.navbar-default .navbar-nav> li > a{
+.navbar .nav> li > a{
 	background-color : #300032;
 	color : #ffffff;
 
@@ -42,8 +42,8 @@ height : 1000px;
 
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
   color: black;
   background-color: #ffffff;
 }
