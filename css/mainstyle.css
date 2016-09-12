@@ -7,8 +7,16 @@ height : 1000px;
     
 }
 
-/*******Styling the header ********/
-.navbar{
+/*******Styling the header *******/
+
+.header-container{
+	padding-left : 0px;
+	padding-right : 0px;
+	margin : 0px;	
+	width : 100%;
+}
+
+.navbar {
 	background-color :#300032;
 	border : 1px solid #300032;
 	border-radius : 0%;
@@ -24,22 +32,24 @@ height : 1000px;
   color : yellow;
 
 }
+.navbar .nav >ul{
 
+	width : 100%;
+	padding-top : 5px;	
+	text-align : center;
 
+}
+.navbar .nav > li{
+
+	width : 300px;
+	text-align : center;
+	margin : 20px;
+}
 .navbar .nav> li > a{
 	background-color : #300032;
 	color : #ffffff;
-
-}
-.navbar-collapse .menuitems{
-
-	text-align : center;
-	width: 100%;
-	padding : 3px;
-	border : 1px solid #300032;
-	border-radius : 2%;
-	background-color : #300032;
-
+	width : 100%;
+	font-size : 20px;
 }
 
 .navbar .nav > li > a:hover,
@@ -58,14 +68,6 @@ height : 1000px;
 	margin : 10px;
 	color : #ffffff;
 
-}
-.navbar .normal-menu > li {
-    
-    padding : 10px;
-    display : block;
-    font-size : 20px;
-   
-    margin-left : 200px;
 }
 
 .page-header{
@@ -105,9 +107,24 @@ footer{
     color : white;
     margin : 30px;
 }
-@media (max-width : 992px){
 
-	.navbar .normal-menu > li {
-         margin-left : 100px;
-    }
+
+@media(max-width : 1198px)
+{
+.navbar .nav > li{
+
+        width : 230px;
+        text-align : center;
+        margin : 20px;
 }
+
+}
+@media(max-width : 992px)
+{
+.navbar .nav > li{
+
+        width : 170px;
+        text-align : center;
+        margin : 20px;
+}
+
