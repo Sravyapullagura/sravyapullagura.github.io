@@ -45,7 +45,7 @@ height : 1000px;
 	text-align : center;
 	margin : 20px;
 }
-.navbar .nav> li > a{
+.navbar .nav>ul>li>a{
 	background-color : #300032;
 	color : #ffffff;
 	width : 100%;
